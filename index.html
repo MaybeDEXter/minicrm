@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h2>Список покупок:</h1>
+    <h2>Внести новый предмет:</h2>
+        <h2 id="costs" class="costs">Итоговая сумма = 0</h2>
+        <div class="addNewItemPanel">
+            <input type="text" placeholder="Название" class="nameInput" id="nameInput">
+            <input type="number" placeholder="Количество" class="countInput" id="countInput">
+            <input type="number" placeholder="Цена" class="costInput" id="costInput">
+            <button id="addNewItemButton" onclick="AddNewItemButton()" class="addButton">Добавить</button>
+        </div>
+        
+    <div class="cart" id="cart">
+        <!-- <div class="item" id = 0>
+            <h1 class="itemName">Название</h1>
+            <h1 class="itemCount">Количество</h1>
+            <h1 class="itemCost">Цена</h1>
+            <h1 class="itemFinalCost">Общая</h1>
+        </div> -->
+    </div>
+    
+</body>
+<link rel="stylesheet" href="style.css">
+</html>
+<script src="main.js"></script>
